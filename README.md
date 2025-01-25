@@ -63,12 +63,13 @@ For Software:
 *This screen displays a list of students with similar data, matching subjects, time, and place preferences.*
 
 3. **Match Results**
-![Screenshot3](Add screenshot 3 here with proper link)
+![Screen![Screenshot 2025-01-25 201103](https://github.com/user-attachments/assets/0631cfb1-31f8-4d5e-af4b-ea082a2dc797)
+shot3](Add screenshot 3 here with proper link)
 *This shows the final results of matched study buddies based on the input criteria.*
 
 ### Project Demo
 #### Video
-
+https://drive.google.com/drive/folders/1QS6JMCYol4lV7zdNqDkK-wqYq9bXeS15?usp=drive_link
 
 
 ## Team Contributions
