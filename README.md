@@ -32,7 +32,7 @@ For Software:
 #### Installation
 1. Clone the repository:
    
-   git clone https://github.com/soaring_steps/brainmates.git
+   git clone [https://github.com/soaring_steps/brainmates.git](https://github.com/Kenitta14/BrainMates.git)
    
 2. Navigate to the project directory:
    
