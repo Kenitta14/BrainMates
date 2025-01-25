@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BrainMates - Study Buddy Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BrainMates</h1>
+        
+        <div id="registration-form">
+            <h2>Register</h2>
+            <form id="register-form">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                
+                <select id="subject" required>
+                    <option value="">Select Subject</option>
+                    <option value="Math">Math</option>
+                    <option value="Science">Science</option>
+                    <option value="Computer Science">Computer Science</option>
+                </select>
+                
+                <select id="available-time" required>
+                    <option value="">Select Available Time</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
+                </select>
+                
+                <select id="preferred-place" required>
+                    <option value="">Select Preferred Place</option>
+                    <option value="Library">Library</option>
+                    <option value="Cafe">Cafe</option>
+                    <option value="Online">Online</option>
+                </select>
+                
+                <select id="study-style" required>
+                    <option value="">Select Study Style</option>
+                    <option value="Group">Group</option>
+                    <option value="Individual">Individual</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        
+        <div id="find-buddies">
+            <h2>Find Study Buddies</h2>
+            <form id="buddy-search">
+                <select id="search-subject">
+                    <option value="">All Subjects</option>
+                    <option value="Math">Math</option>
+                    <option value="Science">Science</option>
+                    <option value="Computer Science">Computer Science</option>
+                </select>
+                
+                <select id="search-time">
+                    <option value="">All Times</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
+                </select>
+                
+                <select id="search-place">
+                    <option value="">All Places</option>
+                    <option value="Library">Library</option>
+                    <option value="Cafe">Cafe</option>
+                    <option value="Online">Online</option>
+                </select>
+                
+                <button type="submit">Search Buddies</button>
+            </form>
+            
+            <div id="buddies-results"></div>
+        </div>
+    </div>
+    
+    <script src="../script.js"></script>
+</body>
+</html>
